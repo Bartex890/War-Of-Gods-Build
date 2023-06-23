@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00238333e07dfba4ba1c57f12ef91291, type: 3}
+  m_Name: rushOfWar
+  m_EditorClassIdentifier: 
+  name: Rush Of War
+  description: For 3 turns, the damage and movement speed of all units are increased
+    by 10%
+  icon: {fileID: 21300000, guid: ac9be2a187e61b94c96fb5766d25c0d0, type: 3}
+  actionCode: add_effect_to_whole_team:rushOfWar
+  woodCost: 0
+  goldCost: 0
+  foodCost: 0
+  faithCost: 10

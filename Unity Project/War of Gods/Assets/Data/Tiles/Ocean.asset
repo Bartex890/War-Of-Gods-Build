@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b34c6962cd2e04ca1043b2ea4558a8, type: 3}
+  m_Name: Ocean
+  m_EditorClassIdentifier: 
+  defaultSprite:
+  - {fileID: 21300000, guid: 028751b6e1efa984da5f9e4697d99f58, type: 3}
+  rules:
+  - sprite:
+    - {fileID: 21300000, guid: 028751b6e1efa984da5f9e4697d99f58, type: 3}
+    rules: '*;o;*
+
+      o;*;o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: 79b13a7736357c44a9d0f88f285ef7df, type: 3}
+    rules: '*;o;*
+
+      o;*;o
+
+      *;*-o-r;*'
+  - sprite:
+    - {fileID: 21300000, guid: ff076614b2be0b04d9c4f295dde5370f, type: 3}
+    rules: '*;o;*
+
+      *-o;*;o
+
+      *;*-o;*'
+  - sprite:
+    - {fileID: 21300000, guid: 77185eb12bea99647af43914a63eb12c, type: 3}
+    rules: '*;o;*
+
+      o;*;*-o
+
+      *;*-o;*'
+  - sprite:
+    - {fileID: 21300000, guid: f6113796690260a4eb7db8763add1f90, type: 3}
+    rules: '*;o;*
+
+      *-o-r;*;o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: d254c58c6f3a45b43a1602800b23b7f0, type: 3}
+    rules: '*;o;*
+
+      o;*;*-o-r
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: e81867c4e8405c847a5210284feec697, type: 3}
+    rules: '*;*-o-r;*
+
+      o;*;o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: c82ca793bc9e47e4a9ad9907be989f21, type: 3}
+    rules: '*;*-o;*
+
+      *-o;*;o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: 513184f4393364b45bf7eb91f55e3828, type: 3}
+    rules: '*;*-o;*
+
+      o;*;*-o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: a929176a00861224ab4075d284cc3f8b, type: 3}
+    rules: '*;o;*
+
+      o;*;o
+
+      *;r;*'
+  - sprite:
+    - {fileID: 21300000, guid: 1f82bf9a5e5b1ae4f8e1a80c6e4f3963, type: 3}
+    rules: '*;o;*
+
+      r;*;o
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: 9632af93ac60d7b438ce73696d4057fc, type: 3}
+    rules: '*;o;*
+
+      o;*;r
+
+      *;o;*'
+  - sprite:
+    - {fileID: 21300000, guid: 23e185fb7e482054a97c1b631c07b432, type: 3}
+    rules: '*;r;*
+
+      o;*;o
+
+      *;o;*'

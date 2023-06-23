@@ -1,0 +1,962 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &256962454057675333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4452576158552996727}
+  - component: {fileID: 4233008537108660281}
+  m_Layer: 0
+  m_Name: ActionDataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4452576158552996727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256962454057675333}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.220106, y: 2.5469465, z: -0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4233008537108660281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256962454057675333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac5bbdbc6109754a8d541649ed87ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dictionaryData:
+  - name: info
+    actionData: {fileID: 11400000, guid: 277d6460bf6c0f648b4f16e2c6b2fe00, type: 2}
+  - name: spawn_test_unit
+    actionData: {fileID: 11400000, guid: ca61ef6fd0ca1e04b96ca5b7692e0f30, type: 2}
+  - name: fix
+    actionData: {fileID: 11400000, guid: a339af1214c60d042b851cb7039a12f6, type: 2}
+  - name: set_target_on_fire
+    actionData: {fileID: 11400000, guid: 08973da0e87934b499f733f019a1f325, type: 2}
+  - name: apply_rush_of_war
+    actionData: {fileID: 11400000, guid: 415cd946d8fcd1544a5531859efc9d10, type: 2}
+  - name: precise_shot
+    actionData: {fileID: 11400000, guid: 04210d77798f7054c98f01c0feefb30f, type: 2}
+  - name: blessing_of_ice
+    actionData: {fileID: 11400000, guid: 5ef8dbd1ed35ba84b824334163385912, type: 2}
+  - name: blessing_of_fire
+    actionData: {fileID: 11400000, guid: f873e625837cd044889af4cedfdb4aae, type: 2}
+  - name: paralysis
+    actionData: {fileID: 11400000, guid: d6e76be2a824fa4478dababd3e1f2a3c, type: 2}
+  - name: spawn_warrior
+    actionData: {fileID: 11400000, guid: 90e20d446d727b84aab5ed213ed3e386, type: 2}
+  - name: spawn_worshipper
+    actionData: {fileID: 11400000, guid: c83dbd842f5a80748b2e97f8e65ae5b3, type: 2}
+  - name: spawn_archer
+    actionData: {fileID: 11400000, guid: ed2e248de6ea35e489ffc955bd780e8a, type: 2}
+  - name: spawn_cavalry
+    actionData: {fileID: 11400000, guid: 6db550c9dfa5cec45ae309fec010392b, type: 2}
+  - name: spawn_dziewanna
+    actionData: {fileID: 11400000, guid: b5ab8b56f1f3e334fa975cd9401dbf86, type: 2}
+  - name: spawn_marzanna
+    actionData: {fileID: 11400000, guid: a54b6e9fc87f7bd41bb126a88527ed98, type: 2}
+  - name: spawn_perun
+    actionData: {fileID: 11400000, guid: 896eb2a3859a00b45a2d92db3536566b, type: 2}
+  - name: spawn_swarog
+    actionData: {fileID: 11400000, guid: 4c6be8ddcdbc94c46be284bb3b4327e4, type: 2}
+  - name: spawn_swietowid
+    actionData: {fileID: 11400000, guid: 99da9b0925a0a274d959ad8bbafbf795, type: 2}
+  - name: change_building_into_farm
+    actionData: {fileID: 11400000, guid: e433ae76b4fcdfa498462d9dfa12af28, type: 2}
+  - name: change_building_into_mine
+    actionData: {fileID: 11400000, guid: 80efad0075235a64da89255cf2a96c3e, type: 2}
+  - name: change_building_into_lumbermill
+    actionData: {fileID: 11400000, guid: fcdff45249d111c4e98d491d115dde1a, type: 2}
+  - name: organise_a_holiday
+    actionData: {fileID: 11400000, guid: 28ae7d1c671260b4c9b376fe733dc4e9, type: 2}
+  - name: spawn_basilics
+    actionData: {fileID: 11400000, guid: d3deedff413fcc84fb9ad31b2d0dbd04, type: 2}
+  - name: spawn_bear
+    actionData: {fileID: 11400000, guid: 64a52d74d49e4b24ebc8cc02b74e1f74, type: 2}
+  - name: spawn_bies
+    actionData: {fileID: 11400000, guid: c311d1c3d53298347a09c3837d8934e0, type: 2}
+  - name: spawn_gryffin
+    actionData: {fileID: 11400000, guid: 9075c532fd7cc3c4eacf5b1abcc54c80, type: 2}
+  - name: spawn_ladyMidday
+    actionData: {fileID: 11400000, guid: c895c44bae0e358469a39d82ddcc1f0d, type: 2}
+  - name: spawn_leshy
+    actionData: {fileID: 11400000, guid: cb3b4bfc31d467f499f581b75471b821, type: 2}
+  - name: spawn_rusalka
+    actionData: {fileID: 11400000, guid: fb1efd909d689e945a6a5ffd459aa76a, type: 2}
+  - name: spawn_utopiec
+    actionData: {fileID: 11400000, guid: 60a870fb8c4c3654fa5eb92a4f0a78da, type: 2}
+  - name: spawn_werewolf
+    actionData: {fileID: 11400000, guid: b4e1eb11fef6912499b2d480f5853866, type: 2}
+  - name: spawn_witch
+    actionData: {fileID: 11400000, guid: 795e1ec7a52bd8645b75301d8e06c62b, type: 2}
+  - name: spawn_wolf
+    actionData: {fileID: 11400000, guid: cd2fc16441396df40b46c9e587bcb0d2, type: 2}
+--- !u!1 &383186085398496606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4932897920909901142}
+  - component: {fileID: 438009113613644767}
+  m_Layer: 0
+  m_Name: EventsModifiers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4932897920909901142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383186085398496606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1115.3218, y: 655.4661, z: 3.5569873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438009113613644767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383186085398496606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3761874dad5ee5e4b80aab7660b7813b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  percentBuffWood: 1
+  percentBuffGold: 1
+  percentBuffFood: 1
+  percentBuffFaithPoints: 1
+  percentBuffRangeMove: 1
+--- !u!1 &1347119113979368534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2533337794251780177}
+  - component: {fileID: 5065645893439741437}
+  m_Layer: 0
+  m_Name: ModifyUnitsGods
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2533337794251780177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347119113979368534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.126606, y: 2.9549465, z: -0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5065645893439741437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347119113979368534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99de431e86ed6c342a01c2b84f18b00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifyWarriorPerun: 4
+  modifyArcherPerun: 0
+  modifyWorshipperPerun: 0
+  modifyWarriorSwarog: 0
+  modifyArcherSwarog: 0
+  modifyWorshipperSwarog: 0
+  modifyWarriorMarzanna: 0
+  modifyArcherMarzanna: 0
+  modifyWorshipperMarzanna: 0
+  modifyWarriorDziewanna: 0
+  modifyArcherDziewanna: 0
+  modifyWorshipperDziewanna: 0
+  modifyWarriorSwietowid: 0
+  modifyArcherSwietowid: 0
+  modifyWorshipperSwietowid: 0
+  modifyHPWarriorPerun: 0
+  modifyHPArcherPerun: 0
+  modifyHPWorshipperPerun: 0
+  modifyHPWarriorSwarog: 4
+  modifyHPArcherSwarog: 3
+  modifyHPWorshipperSwarog: 2
+  modifyHPWarriorMarzanna: 0
+  modifyHPArcherMarzanna: 0
+  modifyHPWorshipperMarzanna: 0
+  modifyHPWarriorDziewanna: 0
+  modifyHPArcherDziewanna: 0
+  modifyHPWorshipperDziewanna: 0
+  modifyHPWarriorSwietowid: 0
+  modifyHPArcherSwietowid: 0
+  modifyHPWorshipperSwietowid: 0
+--- !u!1 &5622934483621754614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5622934483621754615}
+  m_Layer: 0
+  m_Name: Singletons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5622934483621754615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622934483621754614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.220106, y: -2.5469465, z: 0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5622934485131486155}
+  - {fileID: 5622934485186343217}
+  - {fileID: 4452576158552996727}
+  - {fileID: 3077735068053177569}
+  - {fileID: 8771106253151523228}
+  - {fileID: 2533337794251780177}
+  - {fileID: 687750381974366659}
+  - {fileID: 511068436654116003}
+  - {fileID: 4932897920909901142}
+  - {fileID: 9157996378623667929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5622934485131486197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5622934485131486155}
+  - component: {fileID: 5622934485131486154}
+  m_Layer: 0
+  m_Name: UnitDataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5622934485131486155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622934485131486197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.220106, y: 2.5469465, z: -0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5622934485131486154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622934485131486197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0143c4fbf098628449f10a1f632b6215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dictionaryData:
+  - name: test_unit
+    unitData:
+      sprite: {fileID: 21300000, guid: 92bc06d8f350b2149b545fe10fe1181f, type: 3}
+      anim: {fileID: 0}
+      description: This is a test unit
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: f170bbd0ea382e648b75573f3647bb8a, type: 2}
+  - name: warrior
+    unitData:
+      sprite: {fileID: 21300000, guid: 144d5a28042e79c41926c16df00478e3, type: 3}
+      anim: {fileID: 9100000, guid: e824cb5241a2e86428585e1c4b44462e, type: 2}
+      description: 'Slavic warriors, ready to go on any expedition. They are very
+        dangerous and incredibly good with the sword. They can handle any monster. '
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: f170bbd0ea382e648b75573f3647bb8a, type: 2}
+  - name: archer
+    unitData:
+      sprite: {fileID: 21300000, guid: 9b021e7e1de382c4283e418613b2c919, type: 3}
+      anim: {fileID: 9100000, guid: 3dc46c3bd32bd8e478550c0bd13eaf78, type: 2}
+      description: Slavic archers have an extremely good aim. They are adapted to
+        fight in dense forests and their precision is legendary. With their help,
+        you will defeat many enemies.
+      projectile: {fileID: 11400000, guid: 0ea8402d309e8ed478414b9a214ab81c, type: 2}
+      unit: {fileID: 11400000, guid: ce50c3521b739484081ae9d897b90463, type: 2}
+  - name: worshipper
+    unitData:
+      sprite: {fileID: 21300000, guid: e2aa2a4e92bede445bf192cd8a18e228, type: 3}
+      anim: {fileID: 9100000, guid: 2ad817aa45653f748ab237d538667004, type: 2}
+      description: Worshipers are the basic Slavic unit. These ancient priests are
+        intermediaries between the Slavic tribes and the gods to whom they sacrifice.
+        The priest announces the divine will to the common people, and also takes
+        the requests of the people directly to the higher beings.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 783f713da773e99458453f5923df431d, type: 2}
+  - name: cavalry
+    unitData:
+      sprite: {fileID: 21300000, guid: 53635936f97bb70458c8b070813c0224, type: 3}
+      anim: {fileID: 9100000, guid: 8a58ee0d6481ab74cb9bcaa52898e155, type: 2}
+      description: Slavic cavalry is an extremely mobile and at the same time strong
+        melee unit. These fearless warriors never run away from a fight. Their horses
+        will carry them to every fight.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 564902902334375419824b0b6f0cb4f2, type: 2}
+  - name: dziewanna
+    unitData:
+      sprite: {fileID: 21300000, guid: 8a4fb780c8d69f84e856fa862d7fbcb3, type: 3}
+      anim: {fileID: 9100000, guid: a18f2b1811d81f2438f75e2f32a6b726, type: 2}
+      description: Devana is a Slavic goddess of wild nature and hunting. Although
+        in human form she appears as a beautiful and young woman, dziewanna is the
+        best archer of all forest hunters.
+      projectile: {fileID: 11400000, guid: 0ea8402d309e8ed478414b9a214ab81c, type: 2}
+      unit: {fileID: 11400000, guid: 12934d5e8514cb244a584d4c57b37709, type: 2}
+  - name: marzanna
+    unitData:
+      sprite: {fileID: 21300000, guid: be31863d016df4a4abe2df2aad3ca5e5, type: 3}
+      anim: {fileID: 9100000, guid: b1a78631545b41548968d2a6f8c2684d, type: 2}
+      description: Morana is the Slavic goddess of winter. The goddess appears to
+        people as a woman around whom everything freezes. She is the goddess of death
+        and rebirth.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: b64f7e523ed6c414a8bc9185d9fed66f, type: 2}
+  - name: perun
+    unitData:
+      sprite: {fileID: 21300000, guid: 9018eafb7cf78e14f88c584ea00da071, type: 3}
+      anim: {fileID: 9100000, guid: b2c7c992bfb8d47499c2b626fa289404, type: 2}
+      description: Perun is the Slavic god of thunder. No one can hide from his destructive
+        power of thunder. His favorite animal are  eagles.
+      projectile: {fileID: 11400000, guid: 6b7cae6475a553e43924cfe90912e11b, type: 2}
+      unit: {fileID: 11400000, guid: d92dad8c27a0dab4cbdcf1eb1d688dc3, type: 2}
+  - name: swarog
+    unitData:
+      sprite: {fileID: 21300000, guid: 4fb619e5d6da8e044a132073b321ba66, type: 3}
+      anim: {fileID: 9100000, guid: 94acc7ec74e134d4b92456a58aff93fd, type: 2}
+      description: Svarog is the Slavic god of fire and blacksmithing.  Possessing
+        divine strength he is almost invincible as he walks among his followers,
+        providing them with support.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 578b8b2a531d1c741977e371fcf46fb6, type: 2}
+  - name: swietowid
+    unitData:
+      sprite: {fileID: 21300000, guid: 098add0abc84b3544bc278bbd7cb7f95, type: 3}
+      anim: {fileID: 9100000, guid: 2f3a0c5211f5e5445993bc65553f4811, type: 2}
+      description: Svetovid is the Slavic god of harvest and war. When manifested
+        in human form, he is the best of all warriors and woe betide those who get
+        in his way.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 32f769ef28f4b584a82d1141c4cbdca7, type: 2}
+  - name: witch
+    unitData:
+      sprite: {fileID: 21300000, guid: f692933cf413f4143b1406b3bc6c4b53, type: 3}
+      anim: {fileID: 9100000, guid: d342aa499541a554e99d9eed52f3b706, type: 2}
+      description: "Witches are women who possess ancient magical powers. They can
+        cast spells and sometimes even eat children. Women\u2026"
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 115fa1414f7ad2c49817ed44580c7e5e, type: 2}
+  - name: werewolf
+    unitData:
+      sprite: {fileID: 21300000, guid: cca9811d56f09f64f94c9fbfd2399c3b, type: 3}
+      anim: {fileID: 9100000, guid: 4275624712e2a3c41b4b9e756a744324, type: 2}
+      description: Werewolves are people cursed by a witch. During the day, they
+        are ordinary warriors, but at night they turn into bloodthirsty beasts.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: fe35c34a41b2c1a4e958cc1fa81e7ba3, type: 2}
+  - name: leshy
+    unitData:
+      sprite: {fileID: 21300000, guid: e873e768fd56f6943921981fc3ad350c, type: 3}
+      anim: {fileID: 9100000, guid: e78bc73833b7c6947a60b43edea4ff1a, type: 2}
+      description: The Ents are wonderful forest people who can be found in the forests.
+        They are the guardians of the forest and ensure peace and security - woe
+        to those who annoy them.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: beb953cc2bb3477459d455970cedbfbd, type: 2}
+  - name: basilics
+    unitData:
+      sprite: {fileID: 21300000, guid: f6d4bc4151a0a2c42aba35329633161b, type: 3}
+      anim: {fileID: 9100000, guid: 3cde680bbbd82cc40b9aca3424b2c3fd, type: 2}
+      description: A mythical beast that hatches from a hen's egg that a toad sits
+        on during a full moon. This creature can turn a person to stone with its
+        gaze.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: e6747a29237cb174abf61c2326421820, type: 2}
+  - name: ladyMidday
+    unitData:
+      sprite: {fileID: 21300000, guid: 02fcbd5a2190f5447ae4ac4b89b9d4b1, type: 3}
+      anim: {fileID: 9100000, guid: ae57446df14a3da4eb5cc3d042536a84, type: 2}
+      description: Noonwraith is the spirit of a dead woman who haunts the fields
+        and attacks villagers. It is much stronger during the day.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: bf60a110a51ef414bb00db7383596fdf, type: 2}
+  - name: bear
+    unitData:
+      sprite: {fileID: 21300000, guid: e5f385243583d044e8361d2d8d3e9c1a, type: 3}
+      anim: {fileID: 9100000, guid: 3fd7fe1ed459d8942b2be89de3b701ef, type: 2}
+      description: The bear is a wild beast that lives in the forests. Its fluffy
+        appearance is just a cover for the deadly beast.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: ad9014ef7d6795446b1483426cb5119d, type: 2}
+  - name: bies
+    unitData:
+      sprite: {fileID: 21300000, guid: 0ace7df34572f224ca849ef513037bc6, type: 3}
+      anim: {fileID: 9100000, guid: 98e6dd4ae2d35844384a39069e24bae4, type: 2}
+      description: The Devil is a very strong and rare monster that attacks villages,
+        destroying everything in its path. Killing him requires a well-trained army.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: d2580badd9a467147855a8a4dbe9a232, type: 2}
+  - name: utopiec
+    unitData:
+      sprite: {fileID: 21300000, guid: f11a6e2bf30e223479669ae671850d1c, type: 3}
+      anim: {fileID: 9100000, guid: 00bae8e1cc524ea44a96e4a596afb948, type: 2}
+      description: Drowner are aquatic monsters that live in lakes. They attack passers-by
+        by biting them with their sharp teeth.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: c1c82c41966bc3e4991365481869e186, type: 2}
+  - name: wolf
+    unitData:
+      sprite: {fileID: 21300000, guid: a41f3b9702ac66a44866b0e5da6d3473, type: 3}
+      anim: {fileID: 9100000, guid: c21e2758a9c843c4f88fa00d5a1506b1, type: 2}
+      description: Wolves are wild beasts that live in forests. They are extremely
+        fast and kill opponents using their sharp fangs.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: d6436de497efa8e4fa7bd82facd36b48, type: 2}
+  - name: rusalka
+    unitData:
+      sprite: {fileID: 21300000, guid: 79714418dfbed9542b9df8eaaebb5d98, type: 3}
+      anim: {fileID: 9100000, guid: 92db76d76353447439fc4e360929da18, type: 2}
+      description: Nymph are good spirits that live in forests and lakes. Don't be
+        fooled by their friendly appearance as they can be very dangerous.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: 6bfd60b5735ec4a4997b3ff5fd8ac4c1, type: 2}
+  - name: griffin
+    unitData:
+      sprite: {fileID: 21300000, guid: ae784a21f69758f4aa0890b7cf86021c, type: 3}
+      anim: {fileID: 9100000, guid: 3f0a1b0d2f4d6704e87286b39268ed71, type: 2}
+      description: Griffins are legendary creatures that inhabit high and inaccessible
+        peaks. They have the body, tail, and hind legs of a lion and eagle head and
+        wings.
+      projectile: {fileID: 0}
+      unit: {fileID: 11400000, guid: d5ae29407d679704f8221aa659f1ef76, type: 2}
+--- !u!1 &5622934485186343216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5622934485186343217}
+  - component: {fileID: 5622934485186343222}
+  m_Layer: 0
+  m_Name: BuildingDataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5622934485186343217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622934485186343216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.220106, y: 2.5469465, z: -0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5622934485186343222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622934485186343216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8aa8583cce4564cbc91528d86341b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buildingData:
+  - name: base
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: aaf1b781a251f464798ece495fdc014f, type: 3}
+      - {fileID: 21300000, guid: b0be5b38e3a921b49865ea683fd9ba8f, type: 3}
+      - {fileID: 21300000, guid: 54db52a815a991148991a69a3d51f811, type: 3}
+      - {fileID: 21300000, guid: abb680006dcacc24a8ec0b248eb71cbc, type: 3}
+      description: The main base is your faction's primary building. You can summon
+        new warriors and organize festivals to gain more faith points.
+      building: {fileID: 11400000, guid: 6713f9230d494164aa6ab5f3e1294706, type: 2}
+  - name: farm
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: b6d3c4e028129b44bb38a47a05c5f524, type: 3}
+      - {fileID: 21300000, guid: 3d72fdf7753b6664db7c482c93779d01, type: 3}
+      - {fileID: 21300000, guid: 30d29cb1cbf2eb8499a6009a966ea23a, type: 3}
+      - {fileID: 21300000, guid: 1695dcc8a0ea37d428c019f7a06c2f95, type: 3}
+      description: The old mill spins, providing increased food income each turn.
+      building: {fileID: 11400000, guid: 72c081ef95d8f1f4a8ac254d26dc959f, type: 2}
+  - name: lumber_mill
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: c2dbaff47e587a644b03abaca9c0cc87, type: 3}
+      description: The Lumber mill is a very important building that provides a steady
+        income of wood. Beavers hate it.
+      building: {fileID: 11400000, guid: 37beda0ac5ad44b48afebd04ccaba6ea, type: 2}
+  - name: hut_on_a_chicken_foot
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: e61994879a3d22847babe38d775099c6, type: 3}
+      description: A suspicious house that is located on a large chicken foot. Sometimes
+        it jumps up and goes to the side.
+      building: {fileID: 11400000, guid: 922236a58292ae047b6bd31aba662e10, type: 2}
+  - name: godly_altar
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: 2f2e8b6f82c2c3349b96eb366bf4bd3e, type: 3}
+      - {fileID: 21300000, guid: 740b38afb41f2f2428298195cea55a3c, type: 3}
+      - {fileID: 21300000, guid: fa046ab84d79cac49b844689ee00fa57, type: 3}
+      - {fileID: 21300000, guid: e9988c98894cd8e4ba407640f875b5b9, type: 3}
+      description: Ancient magical power can be felt from the altar. Properly charged
+        with the power of the faithful, it can summon the gods back to the mortal
+        realm.
+      building: {fileID: 11400000, guid: 2667c4e8f806b8f4ea35cba104d7f5ca, type: 2}
+  - name: mine
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: 27800cb455e3e3444bc7df7504e25257, type: 3}
+      description: 'A mine full of precious minerals and gold. '
+      building: {fileID: 11400000, guid: e4d3ff0c3fb15ed4395cc7cb3dfc391f, type: 2}
+  - name: ruins
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: 3bafa65f1a0ca3b4ea1655fd000b0864, type: 3}
+      description: Ruins of a destroyed building. With a little work, it can be rebuilt.
+      building: {fileID: 11400000, guid: 0f545bd2969232b4e889e3f80c1c1ac1, type: 2}
+  - name: sacred_grove
+    buildingData:
+      sprite:
+      - {fileID: 21300000, guid: ea2c24f7643d4ba439112521481c446b, type: 3}
+      - {fileID: 21300000, guid: 0b8c938f7cf417a4aae62de97bbd8db0, type: 3}
+      - {fileID: 21300000, guid: 841910d1c21eee445aa3459e98478646, type: 3}
+      - {fileID: 21300000, guid: 3a6fd0125fab70f4488a700902ff6496, type: 3}
+      - {fileID: 21300000, guid: 1a24a8ce5919c8047b3127a612e06389, type: 3}
+      - {fileID: 21300000, guid: 7b9d8608398e1cc4f83b3dd35acebe1d, type: 3}
+      - {fileID: 21300000, guid: 2f89520c68012494695a0a75deae9941, type: 3}
+      - {fileID: 21300000, guid: 265bc262b556c6f4b8df22301dc4e094, type: 3}
+      - {fileID: 21300000, guid: 8ed29e21d16e16246b217fac474ac925, type: 3}
+      - {fileID: 21300000, guid: d49df73b85eb1f74eb1b8eec62750102, type: 3}
+      - {fileID: 21300000, guid: 17d66248cb560ce49be3658bb075ee7a, type: 3}
+      - {fileID: 21300000, guid: 391f0b29a483c45489ca3da7f124c65c, type: 3}
+      - {fileID: 21300000, guid: 55e9a826ce9b2a24297a369affa09840, type: 3}
+      - {fileID: 21300000, guid: 3a0bfdb703b075949b96ea23844a240b, type: 3}
+      - {fileID: 21300000, guid: 84a4a098f5e531942908863eba745578, type: 3}
+      - {fileID: 21300000, guid: bf13c7196489c5a4faea1fce1e9b0b35, type: 3}
+      description: The Holy Garden is a place of Slavic cult. It is inhabited by
+        magical creatures - you can convince them to join you.
+      building: {fileID: 11400000, guid: 0b9065ed6b2aab448bfa82c34bd48b2b, type: 2}
+--- !u!1 &6439554400848777680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3077735068053177569}
+  - component: {fileID: 8468901501650580164}
+  m_Layer: 0
+  m_Name: StatusEffectDataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3077735068053177569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439554400848777680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.220106, y: 2.5469465, z: -0.039743036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8468901501650580164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439554400848777680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5060aa7f0799d840af1deb13efa2e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dictionaryData:
+  - name: onFire
+    statusEffectData: {fileID: 11400000, guid: 72eb399b5bb3a4243a6d5d52019eeec3, type: 2}
+  - name: frozen
+    statusEffectData: {fileID: 11400000, guid: b25586babe3cf314eae0f17012429097, type: 2}
+  - name: stunned
+    statusEffectData: {fileID: 11400000, guid: 16cf63a12cacb9f4880e5e1b38bbaf56, type: 2}
+  - name: rushOfWar
+    statusEffectData: {fileID: 11400000, guid: 8ccd30e2fae083a4fb29e15197ce8d20, type: 2}
+--- !u!1 &6720960155075077513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9157996378623667929}
+  - component: {fileID: 8940884230290530820}
+  m_Layer: 0
+  m_Name: PortraitsGods
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9157996378623667929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720960155075077513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8940884230290530820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720960155075077513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1026b9013ab70db4d93c13651833ed18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  perunPortrait: {fileID: 21300000, guid: 8b2744ec6a53ad445b223633b9ccdfa4, type: 3}
+  swarogPortrait: {fileID: 21300000, guid: cc79b2b037ee9234bbb495b3f8467a9c, type: 3}
+  marzannaPortrait: {fileID: 21300000, guid: 8c87c6468c7d7db41a007cca3ad79cc3, type: 3}
+  dziewannaPortrait: {fileID: 21300000, guid: 1716c7c042457e548ba3573004ea0141, type: 3}
+  swietowidPortrait: {fileID: 21300000, guid: a871114d42dca374b84425bf4ef48956, type: 3}
+--- !u!1 &7991952021380477033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8771106253151523228}
+  - component: {fileID: 7692343152749926901}
+  m_Layer: 0
+  m_Name: ModifyBuildingsGods
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8771106253151523228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991952021380477033}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 238.1392, y: -155.93314, z: -0.4514134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7692343152749926901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991952021380477033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b54d0cb9f74ca34489461f316c9f1cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifyBuildingsPerun: 40
+  perunWoodModifier: 1
+  perunFoodModifier: 1
+  modifyBuildingsSwarog: 56
+  swarogWoodModifier: 1
+  swarogFoodModifier: 1
+  modifyBuildingsMarzanna: 40
+  marzannaWoodModifier: 1
+  marzannaFoodModifier: 1
+  modifyBuildingsDziewanna: 40
+  dziewannaWoodModifier: 1.2
+  dziewannaFoodModifier: 1
+  modifyBuildingsSwietowid: 40
+  swietowidWoodModifier: 1
+  swietowidFoodModifier: 1.2
+--- !u!1 &8290996109317784780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687750381974366659}
+  - component: {fileID: 1116581216198127108}
+  m_Layer: 0
+  m_Name: UnitSprites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687750381974366659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290996109317784780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1116581216198127108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290996109317784780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9761c984c7944a0448e904f4eafd106d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worshipperSprite: {fileID: 21300000, guid: e2aa2a4e92bede445bf192cd8a18e228, type: 3}
+  archerSprite: {fileID: 21300000, guid: 9b021e7e1de382c4283e418613b2c919, type: 3}
+  warriorSprite: {fileID: 21300000, guid: 144d5a28042e79c41926c16df00478e3, type: 3}
+  cavarlySprite: {fileID: 21300000, guid: 53635936f97bb70458c8b070813c0224, type: 3}
+  basilicsSprite: {fileID: 21300000, guid: f6d4bc4151a0a2c42aba35329633161b, type: 3}
+  bearSprite: {fileID: 21300000, guid: a27de1528e98052408c5e36549f1d65f, type: 3}
+  biesSprite: {fileID: 21300000, guid: 0ace7df34572f224ca849ef513037bc6, type: 3}
+  gryffinSprite: {fileID: 21300000, guid: ae784a21f69758f4aa0890b7cf86021c, type: 3}
+  LadyMiddaySprite: {fileID: 21300000, guid: 02fcbd5a2190f5447ae4ac4b89b9d4b1, type: 3}
+  LeshySprite: {fileID: 21300000, guid: e873e768fd56f6943921981fc3ad350c, type: 3}
+  RusalkaSprite: {fileID: 21300000, guid: 79714418dfbed9542b9df8eaaebb5d98, type: 3}
+  utopiecSprite: {fileID: 21300000, guid: f11a6e2bf30e223479669ae671850d1c, type: 3}
+  werewolfSprite: {fileID: 21300000, guid: cca9811d56f09f64f94c9fbfd2399c3b, type: 3}
+  witchSprite: {fileID: 21300000, guid: f692933cf413f4143b1406b3bc6c4b53, type: 3}
+  wolfSprite: {fileID: 21300000, guid: a41f3b9702ac66a44866b0e5da6d3473, type: 3}
+  dziewannaSprite: {fileID: 21300000, guid: 8a4fb780c8d69f84e856fa862d7fbcb3, type: 3}
+  marzannaSprite: {fileID: 21300000, guid: be31863d016df4a4abe2df2aad3ca5e5, type: 3}
+  perunSprite: {fileID: 21300000, guid: 9018eafb7cf78e14f88c584ea00da071, type: 3}
+  swarogSprite: {fileID: 21300000, guid: 4fb619e5d6da8e044a132073b321ba66, type: 3}
+  swietowidSprite: {fileID: 21300000, guid: 098add0abc84b3544bc278bbd7cb7f95, type: 3}
+--- !u!1 &9045005791209740946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511068436654116003}
+  - component: {fileID: 8543654372701650628}
+  m_Layer: 0
+  m_Name: Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511068436654116003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9045005791209740946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5622934483621754615}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8543654372701650628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9045005791209740946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2355676426b694d41a5c8edee0364877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _events:
+  - name: Heavy rain
+    description: When gray clouds covered the sun, everyone noticed that it was going
+      to rain. Such a downpour certainly favors an increase in crops.
+    rangeRounds: 0;1;2
+    effects: resource;food;1,5
+  - name: Drought
+    description: Long lack of rainfall and strong sun caused a drought that enveloped
+      the land, these are not favorable conditions for plants!
+    rangeRounds: 0;1;2
+    effects: resource;food;0,5
+  - name: Moon behind the clouds
+    description: The moonlight was covered by clouds, apparently this night will
+      be calm.
+    rangeRounds: 4
+    effects: '-'
+  - name: Dusk
+    description: The sun hid behind the horizon and the moonlight began to illuminate
+      the land. The monsters come to life.
+    rangeRounds: 3
+    effects: ;spawnMonsters;3
+  - name: "Wrath of Swar\xF3g"
+    description: "Swar\xF3g became angry, sending a great storm to these lands, which
+      caused a fire to break out. Many forests burned down\u2026"
+    rangeRounds: 1;2;3;4;5
+    effects: resource;wood;0,5
+  - name: Curse of the Charlatan
+    description: "A mountain demon haunts miners' mines, making their work difficult.
+      Many miners fled the mine in horror\u2026"
+    rangeRounds: 2
+    effects: resource;gold;0,5
+  - name: Storm
+    description: A great storm has hit the land, sending heavy rain on it. The plants
+      will grow better, but the weather is not in favor of travellers.
+    rangeRounds: 0;1;2;3;4;5
+    effects: resource;food;1,2;resource;wood;1,2;range;0,5
+  - name: Beautiful day
+    description: The weather is beautiful, the gods are in a good mood..
+    rangeRounds: 0;1;2
+    effects: range;1,25
+  - name: Beautiful night
+    description: The moon shines brightly, illuminating the way for the wanderer.
+    rangeRounds: 3;4;5
+    effects: range;1,25
+  - name: Full moon
+    description: Tonight, the moon shines exceptionally bright. Be careful wanderer,
+      its glow can illuminate even the dead!
+    rangeRounds: 4
+    effects: attackMonsters;2;spawnMonsters;5
+  - name: "Kupa\u0142a Night"
+    description: "Slavic festival of fire and water, fertility, love and divination.
+      Everyone's having fun! Also monsters\u2026"
+    rangeRounds: 3;4;5
+    effects: resource;faithPoints;1,5;spawnMonsters;5
+  - name: Sunrise
+    description: The sun is gently rising above the horison.
+    rangeRounds: 0
+    effects: '-'
+  - name: Day
+    description: It's a peaceful and sunny day... Hopefully.
+    rangeRounds: 1
+    effects: '-'
+  - name: Sunset
+    description: The sun is starting to hide behind the horison. The night is getting
+      close.
+    rangeRounds: 2
+    effects: '-'
+  _windowEvents: {fileID: 0}
+  _name: {fileID: 0}
+  _description: {fileID: 0}

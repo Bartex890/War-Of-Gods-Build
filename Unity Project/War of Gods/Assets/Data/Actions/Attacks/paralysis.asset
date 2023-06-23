@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00238333e07dfba4ba1c57f12ef91291, type: 3}
+  m_Name: paralysis
+  m_EditorClassIdentifier: 
+  name: Paralysis
+  description: When used on a unit, it strikes it with lightning, dealing damage
+    and inflicts the effect of "paralysis" for 1 turn, when used on a building, it
+    deals 25% of max hp
+  icon: {fileID: 21300000, guid: 081cd7576bc182a4990a013d95dadeae, type: 3}
+  actionCode: paralysis
+  woodCost: 0
+  goldCost: 0
+  foodCost: 0
+  faithCost: 5

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b34c6962cd2e04ca1043b2ea4558a8, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  defaultSprite:
+  - {fileID: 21300000, guid: c54952e1980dccc4bb59e77dbe3cb9bb, type: 3}
+  rules:
+  - sprite:
+    - {fileID: 21300000, guid: a665d2726a7c6cb48b5188a727aab0b8, type: 3}
+    rules: '*;*-s-m;*
+
+      sm;*;sm
+
+      *;*-s-m;*'
+  - sprite:
+    - {fileID: 21300000, guid: da7d930473c232146a3d90fa3d2afcc9, type: 3}
+    rules: '*;sm;*
+
+      *-s-m;*;*-s-m
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 9881aee5314ba1448995ab9972c6069c, type: 3}
+    rules: '*;*-s-m;*
+
+      sm;*;*-s-m
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 34d4803f1a05c4d4db1f5d90afcb0f1a, type: 3}
+    rules: '*;*-s-m;*
+
+      *-s-m;*;sm
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 17b866651e1e00140b1d1a14c9f6fc90, type: 3}
+    rules: '*;*-s-m;*
+
+      sm;*;sm
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 226ef0158480ee54a8c915953c52e2a0, type: 3}
+    rules: '*;sm;*
+
+      sm;*;*-s-m
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 7fee87057f0ad57479c0d39ec28b1db4, type: 3}
+    rules: '*;sm;*
+
+      *-s-m;*;sm
+
+      *;sm;*'
+  - sprite:
+    - {fileID: 21300000, guid: 64f813695d5d9614c8dbc6f9f36d68ef, type: 3}
+    rules: '*;sm;*
+
+      sm;*;sm
+
+      *;*-s-m;*'
+  - sprite:
+    - {fileID: 21300000, guid: a81c1737e4b69df45b61eea6558b1ed8, type: 3}
+    rules: '*;sm;*
+
+      sm;*;*-s-m
+
+      *;*-s-m;*'
+  - sprite:
+    - {fileID: 21300000, guid: f01a74410b5dae94d9ab70294ce40247, type: 3}
+    rules: '*;sm;*
+
+      *-s-m;*;sm
+
+      *;*-s-m;*'

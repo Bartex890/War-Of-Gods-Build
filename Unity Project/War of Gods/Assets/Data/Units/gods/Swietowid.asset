@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9ab4e86689f5c478710e85d5e1cb1c, type: 3}
+  m_Name: Swietowid
+  m_EditorClassIdentifier: 
+  name: Svetovid
+  teamID: 0
+  ID: swietowid
+  actions:
+  - info
+  - apply_rush_of_war
+  position: {x: 0, y: 0}
+  _type: 3
+  _baseHP: 50
+  _baseHPmultiplier: 1
+  _attackStrength: 13
+  _multiplierAttackStrength: 3
+  attackRange: 0
+  moveRange: 0
+  _baseRange: 12
+  _baseRangeAttack: 1
+  occupation: 0
+  isOccupation: 0
+  _onAttackStatusEffects: []
+  onAttackTimer: 0
+  isTarget: 0
+  numberOfUnits: 1
+  animator: {fileID: 0}

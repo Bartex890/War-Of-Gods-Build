@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e99465f82381b458c101cbd4ff9199, type: 3}
+  m_Name: SacredGrove
+  m_EditorClassIdentifier: 
+  name: Sacred Grove
+  teamID: 0
+  ID: sacred_grove
+  actions: []
+  position: {x: 0, y: 0}
+  buildingType: 0
+  pounding: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00238333e07dfba4ba1c57f12ef91291, type: 3}
+  m_Name: ChangeBuildingIntoFarm
+  m_EditorClassIdentifier: 
+  name: Build a farm
+  description: Changes the building into a Farm.
+  icon: {fileID: 21300000, guid: 1695dcc8a0ea37d428c019f7a06c2f95, type: 3}
+  actionCode: change_building_into:farm
+  woodCost: 15
+  goldCost: 5
+  foodCost: 0
+  faithCost: 0

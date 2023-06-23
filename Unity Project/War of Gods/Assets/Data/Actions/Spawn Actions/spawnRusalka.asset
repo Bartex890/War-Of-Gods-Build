@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00238333e07dfba4ba1c57f12ef91291, type: 3}
+  m_Name: spawnRusalka
+  m_EditorClassIdentifier: 
+  name: Summon Rusalka
+  description: Summons Rusalka.
+  icon: {fileID: 21300000, guid: 79714418dfbed9542b9df8eaaebb5d98, type: 3}
+  actionCode: spawn:rusalka
+  woodCost: 0
+  goldCost: 5
+  foodCost: 5
+  faithCost: 5
